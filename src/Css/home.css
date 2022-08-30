@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    text-align: center;
+}
+.Home{
+    background: rgb(2,0,36);
+    background: linear-gradient(176deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(248,0,255,1) 100%);
+    width: 100%;
+    overflow: hidden;
+}
+
+.card_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+Link{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.home_button{
+    border: solid blue;
+    background-color: white;
+    color: blue;
+   padding: 1rem;
+   width: 20%;
+   border-radius: 5rem;
+   margin: 2rem 0rem;
+}
+
+.home_button:hover{
+    background-color: rgba(7, 61, 59, 0.467);
+    color: white;
+    border: solid white;
+    transition: 0.3s;
+
+}
+
+.search_bar{
+    width: 100%;
+    border: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card_container{
+        flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+    }
+
